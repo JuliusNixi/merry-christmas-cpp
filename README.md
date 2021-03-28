@@ -80,5 +80,5 @@ It's possible to modify the default settings, that are called if no arguments ar
 
 ##Help Page
 
-![Error: 'help_screenshot.png' not found.](https://github.com/juliusnixi/merry-christmas-cpp/blob/main/help_screenshot.png?raw=true)
+![Error: 'help_screenshot.png' not found.](https://raw.githubusercontent.com/JuliusNixi/merry-christmas-cpp/main/help_screenshot.png)
 
