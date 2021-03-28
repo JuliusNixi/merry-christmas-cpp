@@ -45,7 +45,7 @@ int main(int argc, char** argv) {
             cout << "COLORS: 1/0." << endl;
             cout << "CHRISTMAS_BALLS: 1/0." << endl;
             cout << "CHRISTMAS_BALLS_CHAR: One single character. Be careful not to use shell reserved characters like '|'' or '>'." << endl;
-            cout << "SIZE: Intero positivo maggiore o uguale a 6." << endl;
+            cout << "SIZE: Positive integer greater than or equal to 6." << endl;
             cout << "TREE_CHAR: One single character. Be careful not to use shell reserved characters like '|'' or '>'." << endl;
             cout << "TRONK_CHAR: One single character. Be careful not to use shell reserved characters like '|'' or '>'." << endl;
             cout << "PRINT_SIGNATURE: 1/0." << endl << endl;
