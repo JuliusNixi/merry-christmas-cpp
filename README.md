@@ -38,7 +38,6 @@ If you want to modify the source code and recompile the program, it's quite easy
 * Recompile manually.
 
 Use a C++ IDE as support: 
-If you have an C++ IDE installed on your computer i think i have not to explain much...
 
 1. You should already have a C++ compiler installed from the IDE.
 2. Open the file 'MerryChristmas.cpp' in the repo root with the C++ IDE.
