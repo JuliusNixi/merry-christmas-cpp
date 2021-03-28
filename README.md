@@ -78,7 +78,10 @@ It's possible to modify the default settings, that are called if no arguments ar
  ```
  3. Follow the instructions above to recompile.
 
-##Help Page
+## Help Page
+This is the help page that appears if you pass the wrong number of arguments to the program or pass the keyword help. Follow the instructions to customize the print. An example of valid use is: 'MerryChristmas.exe 1 1 1 1 X 10 + - 0'
 
 ![Error: 'help_screenshot.png' not found.](https://raw.githubusercontent.com/JuliusNixi/merry-christmas-cpp/main/help_screenshot.png)
 
+## Important Notices
+* When passing arguments to the program to print the tree and its trunk, you cannot use certain characters. Specifically all characters that are reserved for windows shell use (cmd). For example '&', '|', '>', '<'. To overcome this problem you can forcibly prevent the interpretation of the character from the shell (in technical jargon escaping). Unfortunately in the windows shell there are several different ways to escaping depending on the character, there is not a universal one as in other instruments. So if you want to use special characters that are not read correctly look on Google how to escaping on cmd. For '&', '|', '>', '<' you can do it with '^'. So an example command will be: 'MerryChristmas.exe 1 1 1 X 10 ^& ^| 0'
