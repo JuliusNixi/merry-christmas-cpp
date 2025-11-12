@@ -4,7 +4,7 @@ A simple, small, command line program for Windows written in C++. It print a bea
 ![Error: 'demo_screenshot.png' not found.](https://raw.githubusercontent.com/JuliusNixi/merry-christmas-cpp/main/demo_screenshot.png)
 
 ## How to Download & Install:
-This program does not require any installation! It's a standalone .exe file which only needs to be downloaded and executed. To do download:
+If you have the basic Windows C++ libraries instlled, this program does not require any other installation! It's a standalone pre-compiled .exe file which only needs to be downloaded and executed. To do download:
 
 1. Download this repo. You can do it in many different ways, the easiest is to click on 'Code' and then 'Download ZIP'.
 2. If you have downloaded the .ZIP file extract it to any location you want. If you cloned this repo with git (or other ways) you should have the folder ready to use (already unzipped).
@@ -34,7 +34,7 @@ Passing arguments to customize printing:
 8. Enjoy the view! 💙
 
 ## Recompile:
-If you want to modify the source code and recompile the program, it's quite easy to do it if you have a minimum of experience with computer science. There are two ways:
+If the program gives you some errors about some .dll libraries or if you want to modify the source code, you must recompile the program, it's quite easy to do it if you have a minimum of experience with computer science. There are two ways:
 
 * Use a C++ IDE as support.
 * Recompile manually.
@@ -49,8 +49,8 @@ Use a C++ IDE as support:
 
 Recompile manually.
 
-1. You need to install a C++ compiler if you don't already have it. There are several. I recommend 'MinGW'. Google it. Download and Install it.
-2. Be sure to add the 'g++.exe' and 'gcc.exe' files to the system variables (path). Are located in the 'bin' subfolder contained in the MinGW root folder.
+1. You need to install a C++ compiler if you don't already have it. There are several. I recommend 'MinGW'. Google it. Download and Install it. It's a minimal GNU for Windows toolchain.
+2. Be sure to add the 'g++.exe' and 'gcc.exe' files to the system variables (path). Are located in the 'bin' subfolder contained in the MinGW root folder, by default installed under C:.
 3. Open a system shell (cmd). Go to the repo folder using 'cd' command.
 4. Run the command: 'g++ MerryChristmas.cpp -o bin/MerryChristmas.exe' and then 'ENTER' on keyboard.
 5. ALTERNATIVELY If you have problems with the previous command you can try to use this: 'gcc MerryChristmas.cpp -o bin/MerryChristmas.exe -lstdc++' and then 'ENTER' on keyboard.
@@ -59,7 +59,7 @@ Recompile manually.
 ## Change Default Settings:
 It's possible to modify the default settings, that are called if no arguments are passed to the program. To do this:
 
-1. Open the 'MerryChristmas.cpp' file (contained in the root of the repo) with a text editor, preferably an IDE that supports C++, but not necessary.
+1. Open the 'MerryChristmas.cpp' file (contained in the root of the repo) with a text editor, preferably an IDE that supports C++ syntax, but not necessary.
 2. Modifies the vars contained between the two large blocks of initial comments, these:
 ```c++
     bool PRINT_TREE = true;
